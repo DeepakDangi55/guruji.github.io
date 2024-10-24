@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.yogaInstitute{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-weight: 500;
+    height: 150px;
+    font-size: 25px;
+    letter-spacing: 6.5px;
+    word-spacing: 2px;
+
+}
+.theyog{
+    font-size: 18px;
+    padding-top:20PX ;
+}
+.theyog > #home{
+    cursor: pointer;
+}
+.theyog > #home:hover{
+    color: rgb(164, 20, 20);
+    transition: 0.6s;
+    
+}
+.cplyoga{
+    display: flex;
+    padding: 20px;
+
+}
+.cplyogaimg{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    padding-right: 20px;
+
+
+
+}
+.cplyogapra{
+    
+    width: 50%;
+    padding: 20px;
+    background-image:url(/images/oiconLogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: initial;
+}
+.cplyogapra > h2{
+    width: 100%;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: rgb(117, 18, 18);
+}
+.cplyogapra > p{
+    width: 100%;
+    font-size: 22px;
+}
+.cplyogaimgs{
+    height: 400px;
+    width: 350px;
+    box-shadow: 6px 6px 20px black;
+    border: 3px solid white;
+}
+@media screen and (max-width: 900px){
+    .cplyoga{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cplyogapra{
+    
+        width: 100%;
+        padding: 20px;
+        background-image:url(/images/oiconLogo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: initial;
+    }
+    .cplyogaimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 450px){
+    .cplyoga{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .cplyogapra{
+    
+        width: 100%;
+        padding: 0px;
+        background-image:url(/images/oiconLogo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: initial;
+    }
+    .cplyogapra > h2{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 10px;
+        color: rgb(117, 18, 18);
+        /* border: 2px solid red; */
+    }
+    .cplyogapra > p{
+        width: 100%;
+        font-size: 12px;
+    }
+    .cplyogaimgs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        width: 300px;
+        box-shadow: 6px 6px 20px black;
+        margin-bottom: 20px;
+    }
+    .yogaInstitute{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(80, 79, 79);
+        color: white;
+        font-weight: 500;
+        height: 150px;
+        font-size: 12px;
+        letter-spacing: 4.5px;
+        word-spacing: 2px;
+    
+    }
+    .theyog{
+        font-size: 10px;
+        padding-top:10PX ;
+        letter-spacing: 2.5px;
+
+    }
+    .theyog > #home{
+        cursor: pointer;
+    }
+    .theyog > #home:hover{
+        color: rgb(164, 20, 20);
+        transition: 0.6s;
+        
+    }
+    .cplyogaimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}

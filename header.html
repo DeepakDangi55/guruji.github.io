@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/IconLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/loading.css">
+    <link rel="stylesheet" href="/css/curser.css">
+
+
+    <title>GURU JI YOG KENDRA</title>
+</head>
+
+<body>
+    
+    <Section style="position: sticky; top: 0; background-color: white;">
+        <div class="loader"></div>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <img src="/images/FullLogo.png" alt="">
+                    <h2>GURU JI YOG KENDRA</h2>
+                </div>
+                <div class="menulogo" id="menulogo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAPVJREFUaEPtlkEOwjAMBNtbngsvQLwAnpsbCHFEkRa5tWNnenay9o6det8W+/bF6t0ouDpxCEO4mAO0dDGgP+VAGMLFHKCliwHl0ZJb+traa2b6j96lWqSgT6EUPBluCA+A0NKTderh6ciED1cOupCCg4x3k4Wwm9VBQhAeGX9p7RYERZJ99n5XAmXC7NKKnY4x7NLs0l8H5Ble7tFyHMdTpWTCp2bheDkFO5odIgXhENsdRSE8Mptd2rENFSl2aXbpP3fp5WZYmaMMMfyWMlCy5Ahhi3sZzkI4AyVLjhC2uJfhLIQzULLkCGGLexnOQjgDJUuOb7vyQD2A+cg0AAAAAElFTkSuQmCC" onclick="menulogo();"/></div>
+
+            </div>
+            <div class="menu" id="menu" >
+                <ul>
+                    <li id="menuhide" style="cursor: pointer; border: none;" onclick="menuhide();"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAUZJREFUaEPt2NENgjAQBuDrW8fQTXQT3YA4gS6gbCCb6CiMcW8YHkgIQdreXeEnKY/C4f/dNQHqaOeH23l+KoCtJ1gmUCag7EBZQtMGVt4fauZW2djoctMJVN6fHNGnI7rXzI/oFIoLzQBD+CHLWggTwDT8CHHMvZzUgIXw55r5q1gdUaUqwNbhe6EYgBBeDEAJLwIghU8GoIVPAiCGjwagho8CIIcPAtDDLwL+hY96PGa46MU8+8ya/REtfN+PJMDN+0tH9M7QSPEtkwD9v6AhkgELiLYjatb6YAmNLPgy92cSMIggAH0SUQBkRDQAFZEEQEQkA9AQIgASQgxAQagACAg1IIDo94ay7pOaAOYQjuj6ZG5CrwLa82aAMWKt8MEvMkl3dr29LgFra0yXkDaMpL4AJF2zrCkTsOym5F5lApKuWdb8ACg+zDEgJMNEAAAAAElFTkSuQmCC"/></li>
+                    <a href="/index.html"></a><li style="cursor: pointer;">Home</li></a>
+                    <li onclick="showMenuAbout();" style="cursor: pointer;">About <span style="position: absolute; right: 2px; padding-bottom: 20px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAVJJREFUWEftlsENwjAMRd2bx2AU2KTdIGIBYAHUDWAT2ISOkVvBKJGsKqnthEORwqnCtXn+/rboYGOfbmM80ICkiTSFmkKSAlL8vz10ROyv3t+lLnncmqNWyCHeOoB+BjiP3l80UCU5KiCHuO8AHhFCAxVhWM5h9P4pNaICoiIO8fR5+ayBSsDcR+8HCYbiaiAtVA2MGUiCqoUpAspBAcCOTM9Gqh4TH6VpZDxx6SkemwGKYEwKOURS4DED0LZMKaXoOw6TypGMrVIoFH6FYlMOKgGTzFmDsgDRHdrloCgWV3vRAKVQE8Ov79B3ZDmo2HUNjMlDwTOrULUwZqA1qFAsesY0puq1j9vDx8eei2GKFFp4hXsqhtQGTm2bastya5pSSrtNuZpVQAtP0VFUrXb1HZKuKykV7pD4f0eqVa2Q9APWeAOSFGsKNYUkBaT45jz0Bh4L0CWJJGBqAAAAAElFTkSuQmCC"/></span>  
+                        <ul id="About">
+                            <a href="the-yoga-institute.html"><li>Guruji Yog Kendra</li></a>
+                            <!-- <a href="dr-hansajis-blessings.html"><li>Dr Hansaji's Blessings</li></a> -->
+                            <!-- <a href="shri-yogendra-ji.html"><li>Shri Yogendra ji</li></a> -->
+                        </ul>
+                    </li>
+                    <!-- <a href="our-legacy.html"><li style="cursor: pointer;">Our Legacy</li></a> -->
+                    <li onclick="showMenuCourse();" style="cursor: pointer;">Courses <span style="position: absolute; right: 2px; padding-bottom: 20px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAVJJREFUWEftlsENwjAMRd2bx2AU2KTdIGIBYAHUDWAT2ISOkVvBKJGsKqnthEORwqnCtXn+/rboYGOfbmM80ICkiTSFmkKSAlL8vz10ROyv3t+lLnncmqNWyCHeOoB+BjiP3l80UCU5KiCHuO8AHhFCAxVhWM5h9P4pNaICoiIO8fR5+ayBSsDcR+8HCYbiaiAtVA2MGUiCqoUpAspBAcCOTM9Gqh4TH6VpZDxx6SkemwGKYEwKOURS4DED0LZMKaXoOw6TypGMrVIoFH6FYlMOKgGTzFmDsgDRHdrloCgWV3vRAKVQE8Ov79B3ZDmo2HUNjMlDwTOrULUwZqA1qFAsesY0puq1j9vDx8eei2GKFFp4hXsqhtQGTm2bastya5pSSrtNuZpVQAtP0VFUrXb1HZKuKykV7pD4f0eqVa2Q9APWeAOSFGsKNYUkBaT45jz0Bh4L0CWJJGBqAAAAAElFTkSuQmCC"/></span> 
+                        <ul id="Course">
+                            <li>On line/Offline Yoga class</li>
+                            <li>Teacher Training Course</li>
+                            <li>100 Hrs. Yog Kendra</li>
+                        </ul>
+                    </li>
+                    <!-- <a href="blog.html"><li style="cursor: pointer;">Blog</li></a> -->
+                    <a href="contact.html"><li style="cursor: pointer;">Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+    </Section>
+    <!-- <script>
+        function showMenu(){
+            var element=document.getElementById('About').setAttribute("style","display:none");
+            element.classList.toggle("pera");
+        }
+        
+    </script> -->
+    <script>
+        function showMenuAbout() {
+          var x = document.getElementById("About");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+          var y = document.getElementById("Course");
+          if (y.style.display === "none") {
+              y.style.display = "none";
+            } else {
+                y.style.display = "none";
+            }
+        }
+            
+        
+        </script>
+        <script>
+            function showMenuCourse() {
+              var y = document.getElementById("Course");
+              if (y.style.display === "none") {
+                y.style.display = "block";
+              } else {
+                y.style.display = "none";
+              }
+              var x = document.getElementById("About");
+              if (x.style.display === "none") {
+                  x.style.display = "none";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+            </script>
+            <script>
+                function menuhide(){
+
+                    document.getElementById('menu').setAttribute("style","display:none;");
+                    document.getElementById('menulogo').setAttribute("style","display:block;");
+                }
+            </script>
+             <script>
+                function menulogo(){
+
+                    document.getElementById('menu').setAttribute("style","display:block;");
+                    document.getElementById('menulogo').setAttribute("style","display:none;");
+                }
+            </script>
+              <script>window.addEventListener("load",() => {
+                const loader = document.querySelector(".loader");
+                loader.classList.add("loader-hidden");
+            })</script>
+
+<section >
+    <div class="introo">
+        <div class="intro">
+            <h2 id="oldest">THE OLDEST ORGANISED</h2>
+            <h2>YOGA INSTITUTE IN THE WORLD.</h2>
+            <p>In 1918, Shri Yogendra ji laid the foundation.
+                His Guruji Shri Madhavdas ji, blessed and trained him to be a true yogi. A Siddha, who demonstrated that being a householder can also enable you to achieve mastery over your physical and mental senses. <br><br>
+                
+                Yogendra ji firmly believed that people must be educated about yoga before they start practicing it.</p>
+
+        </div>
+        <div class="logoimg">
+            <img src="/images/IconLogo.png" alt="" class="imglogo">
+
+        </div>
+
+    </div>
+</section>
+<section>
+    <div class="photos">
+        <div class="photo">
+            <div><img src="/images/Paramhamsa-Madhavadas.jpg" alt="" class="photosize"></div>
+            <div class="phototital" >Paramhamsa Madhavdasji <br>
+                Founder’s Guru <br>
+                1798-1921</div>
+        </div>
+        <div class="photo">
+            <div><img src="/images/Shri-Yogendra.jpg" alt="" class="photosize"></div>
+            <div class="phototital">Shri Yogendra ji <br>
+                Founder <br>
+                1897 – 1989</div>
+        </div>
+        <div class="photo">
+            <div><img src="/images/Smt-Sitadevi.jpg" alt="" class="photosize"></div>
+            <div class="phototital">Smt. Sitadevi Yogendra <br>
+                Mother <br>
+                1912 – 2008</div>
+        </div>
+        <div class="photo">
+            <div><img src="/images/Jayadeva-Yogendra.jpg" alt="" class="photosize"></div>
+            <div class="phototital">Dr. Jayadeva Yogendra <br>
+                President <br>
+                1929 – 2018</div>
+        </div>
+        <div class="photo">
+            <div><img src="/images/Hansaji-Yogendra.jpg" alt="" class="photosize"></div>
+            <div class="phototital">Smt. Hansaji J Yogendra <br>
+                Director <br>
+                1947</div>
+        </div>
+        <div class="photo">
+            <div><img src="/images/Hrishi-J-Yogendra.jpg" alt="" class="photosize"></div>
+            <div class="phototital">Shri Hrishi J Yogendra <br>
+                Assistant Director <br>
+                1988</div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="institutearea">
+        <div class="yogainstitute">
+            <div class="theyoga">
+                <h2>The Yoga Institute</h2>
+
+            </div>
+            <div class="yogagohana">
+                <h2>GOHANA.</h2>
+
+            </div>
+            <div class="yogagohanapera">
+                <p>We at Yoga Nagri <b>Gohana</b> (Yoga capital of the world) welcome every enthusiast to explore authentic traditional yogic practices and learn with best faculties.</p>
+            </div>
+        </div>
+        <div class="instuteimg">
+            <img class="instuteimgs" src="/images/rishikesh.png" alt="No.1 Yoga Institute in The World Since 1918 _ The Yoga Institute">
+        </div>
+    </div>
+</section>
+
+<script>
+    document.onclick =function(e){
+        let x = e.pageX;
+        let y = e.pageY;
+
+        let span = document.createElement("span");
+        span.classList.add("click_effect");
+        span.style.top = y + "px";
+        span.style.left = x + "px";
+
+        document.body.appendChild(span);
+
+        setTimeout(()=>{
+            span.remove();
+        },550);
+    }
+</script>
+  
+
+</body>
+
+</html>

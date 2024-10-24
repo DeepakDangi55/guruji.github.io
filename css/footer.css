@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    height: 160px;
+    width: 100vw;
+    background-color: rgb(129, 5, 5);
+    padding: 20px;
+    margin-top: 10px;
+}
+.footerContainer::before{
+    content: "";
+    position: absolute;
+    background-image: url(/images/footer-decor.png);
+    /* background-image: url(/images/Hansaji-Yogendra.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 150px;
+    height: 31px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    background-position: center center;
+    z-index: 99;
+    display: block;
+}
+
+.pptc{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.pptc h2{
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+@media screen and (max-width: 500px){
+    .pptc h2{
+        margin: 10px;
+        font-size: 15px;
+        color: white;
+    }
+}
+
+.socialMedialogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.rights{
+    position: absolute;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+  
+
+.sociallink{
+    margin: 20px;
+}
+@media screen and (max-width: 819px){
+    .sociallink{
+        margin: 2px;
+        height: 35px;
+        width: 35px;
+    }
+    .rights{
+        position: absolute;
+        bottom: 0px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 7px;
+        padding-bottom: 10px;
+      
+    }
+}
+

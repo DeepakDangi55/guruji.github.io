@@ -1,0 +1,101 @@
+
+    .click_effect{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-image: url(/images/IconLogo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        /* border: 5px solid rgb(0, 0, 0); */
+        pointer-events: none;
+        margin-top: -50px;
+        margin-left: -50px;
+        opacity: 0;
+        border-radius: 50%;
+        animation-name: click_animation;
+        animation-duration: 0.6s;
+        animation-timing-function: linear;
+
+
+    }
+    @keyframes click_animation{
+        0%{
+            opacity: 1;
+            transform: scale(0.1);
+
+        }
+        10%{
+            opacity: 1;
+            transform: scale(0.2);
+            
+        }
+        20%{
+            opacity: 1;
+            transform: scale(0.3);
+            
+        }
+        30%{
+            opacity: 1;
+            transform: scale(0.4);
+            
+        }
+        40%{
+            opacity: 0.9;
+            transform: scale(0.5);
+            
+        }
+        50%{
+            opacity: 0.7;
+            transform: scale(0.6);
+            
+        }
+        60%{
+            opacity: 0.5;
+            transform: scale(0.7);
+            
+        }
+        70%{
+            opacity: 0.3;
+            transform: scale(0.8);
+            
+        }
+        80%{
+            opacity: 0.1;
+            transform: scale(0.9);
+            
+        }
+        90%{
+            opacity: 0;
+            transform: scale(1);
+            
+        }
+        100%{
+            opacity: 0;
+            transform: scale(1);
+            
+        }
+
+
+
+    }
+
+
+    /* <script>
+    document.onclick =function(e){
+        let x = e.pageX;
+        let y = e.pageY;
+
+        let span = document.createElement("span");
+        span.classList.add("click_effect");
+        span.style.top = y + "px";
+        span.style.left = x + "px";
+
+        document.body.appendChild(span);
+
+        setTimeout(()=>{
+            span.remove();
+        },550);
+    }
+</script> */

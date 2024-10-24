@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.introo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 70%;
+}
+.intro > h2{
+    color: rgb(173, 16, 16);
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "PT Serif Caption", Sans-serif;
+    font-weight: 900;
+}
+#oldest{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: "PT Serif Caption", Sans-serif;
+
+
+}
+.intro > p {
+    font-size: 22px;
+}
+.logoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    opacity: 0.2;
+    z-index: -1;
+}
+.imglogo{
+    height: 300px;
+    width: 300px;
+}
+@media screen and (max-width: 650px){
+    .introo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 90%;
+        background-image: url(/images/oiconLogo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        /* opacity: 0.1; */
+        font-weight: 520;
+        
+    }
+    .intro > h2{
+        color: rgb(173, 16, 16);
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-family: "PT Serif Caption", Sans-serif;
+        font-weight: 900;
+    }
+    #oldest{
+        font-size: 10px;
+        margin-bottom: 10px;
+        color: black;
+        font-family: "PT Serif Caption", Sans-serif;
+        font-weight: 900;
+
+    
+    
+    }
+    .intro > p {
+        font-size: 16px;
+    }
+    .logoimg{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        opacity: 0.2;
+    }
+    .imglogo{
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+/* --------------------------------------------------Photos----------------------------------- */
+
+.photos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.photosize{
+    max-height: 350px;
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(126, 124, 124);
+}
+.phototital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+}
+/* -------------------------------------------------------Institute------------------------- */
+.institutearea{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+.yogainstitute{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 20px 30px;
+    background-color: rgb(244, 217, 178);
+}
+.instuteimg{
+    width: 50%;
+    
+}
+.instuteimgs{
+    width: 100%;
+    height: 100%;
+}
+.theyoga > h2 {
+    font-size: 20px;
+}
+.yogagohana > h2{
+    font-size: 50px;
+    color: rgb(160, 36, 36);
+
+
+}
+.yogagohanapera{
+    font-size: 25px;
+}
+@media screen and (max-width: 500px){
+    .instuteimg{
+        display: none;
+        width: 50%;
+        
+    }
+    .yogainstitute{
+        width: 100%;
+    }
+
+}
+/* ---------------------------TESTIMONIALS---------------------------------- */
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 10px;
+    font-weight: 900;
+    color: rgb(210, 205, 204);
+
+}
+@media screen and (max-width: 500px){
+    .testimonials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin: 10px;
+        font-weight: 900;
+        color: rgb(210, 205, 204);
+    
+    }
+    
+}
+.come-exprience{
+    height: 400px;
+    width: 100%;
+    background-image: url(/images/come-experience.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+.comes-hansaji{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    width: 50%;
+    justify-content: center;
+    padding: 30px;
+}
+.comes-hansaji > h2 {
+    font-size: 40px;
+}
+.Hansaji-Yogendraimg{
+    height: 350px;
+    width: 300px;
+    border: 10px solid white;
+    margin-top: 20px;
+}
+@media screen and (max-width: 800px){
+    .comes-hansaji{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 35%;
+        width: 100%;
+        justify-content: center;
+        padding: 10px;
+    }
+    .comes-hansaji > h2 {
+        font-size: 25px;
+    }
+    .Hansaji-Yogendraimg{
+        height: 250px;
+        width: 230px;
+        border: 10px solid white;
+        margin-top: 5px;
+    }
+
+}

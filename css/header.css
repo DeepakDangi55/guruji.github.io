@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color: rgb(245, 238, 236); */
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    border-top:10px solid rgb(113, 8, 8) ;
+    /* border-bottom:1px solid rgb(220, 212, 212) ; */
+    flex-wrap: wrap;
+    padding: 5px;
+    box-shadow: 0px 0px 20px rgb(85, 85, 85);
+    margin-bottom: 10px;
+
+    
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-direction: initial; */
+    /* height: 200px; */
+    /* width: 100vw; */
+    /* border: 2px solid red; */
+}
+.logo > img{
+    height: 150px;
+    width: 190px;
+}
+.logo > h2{
+    color: rgb(85, 8, 8);
+}
+.container > .menulogo{
+    position: absolute;
+    right: 10px;
+    padding-top: 50px;
+    display: flex; 
+     justify-content: center;
+    align-items: center; 
+    
+}
+@media screen and (max-width: 500px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-top:10px solid rgb(113, 8, 8) ;
+        border-bottom:1px solid rgb(220, 212, 212) ;
+        padding: 5px;
+    
+    }
+    .container > .menulogo{
+        position: relative;
+        padding-top: 0px;
+    }
+   
+}
+.container > .menulogo >img{
+    /* border: 2px solid red; */
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 999;
+    /* border: 3px solid green; */
+    height: 100vh;
+    scrollbar-width: 2px;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    font-weight: 700;
+    box-shadow: 2px 3px 15px rgb(85, 85, 85);
+    overflow: scroll;
+    border-radius: 10px;
+
+}
+.menu > ul > a{
+
+    text-decoration: none;
+}
+.menu > ul >li {
+    list-style: none;
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    color: black;
+    /* box-shadow: 0px 2px 5px rgb(85, 85, 85); */
+
+}
+.menu > ul > a >li {
+    list-style: none;
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    color: black;
+    /* box-shadow: 0px 2px 5px rgb(85, 85, 85); */
+
+}
+.menu > ul >li > ul > li {
+    list-style: none;
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: rgb(85, 85, 85);
+
+}
+.menu > ul >li > ul > a{
+
+    text-decoration: none;
+}
+.menu > ul >li > ul > a > li {
+    list-style: none;
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: rgb(85, 85, 85);
+
+}
+
+#About{
+    display: none;
+}
+#Course{
+    display: none;
+}
+#menu{
+    display: none;
+}
+@media screen and (max-width: 500px){
+    .menu{
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        height: 100vh;
+        width: 55%;
+        padding: 10px;
+        background-color: white;
+        font-weight: 700;
+    box-shadow: 2px 3px 15px rgb(85, 85, 85);
+    overflow: scroll;
+
+
+    }
+
+}
